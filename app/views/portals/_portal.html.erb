@@ -1,0 +1,10 @@
+<div class="card">
+  <%= link_to image_tag(portal.image, class: :card__img,width:"300",height:"300"), portal_path(portal.id) %>
+  <div class="card__body">
+    <%= link_to portal.title, portal_path(portal.id), class: :card__title%>
+    <p class="card__summary">
+      <%= portal.catch_copy %>
+    </p>
+    <%= link_to portal.user.name, user_path(portal.user_id), class: :card__user %>
+  </div>
+</div>
