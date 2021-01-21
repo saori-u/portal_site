@@ -44,14 +44,14 @@ h2{
 
 .header {
   background-color: #050607;
-  /*margin-bottom: 48px;*/
+  /* margin-bottom: 48px; */
   padding: 20px 0;
 
 }
-/*.inner {
+/* .inner {
   width: 1024px;
   margin: 0 auto;
-}*/
+} */
 
 .nav {
   width: 100%;
@@ -516,8 +516,8 @@ table td{
 @media (max-width: 1024px) {
   /*.inner {
     width: 90%;
-    margin: 0 auto;
-  }*/
+    margin: 0 auto;*/
+
   .page-heading {
     font-size: 24px;
   }
