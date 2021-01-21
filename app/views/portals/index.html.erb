@@ -3,14 +3,29 @@
     <%# ログインしているときは以下を表示する %>
     <% if user_signed_in? %>
       <div class="greeting">
-        こんにちは
+        ▶︎▶︎▶︎こんにちは
         <%= link_to "#{current_user.name}さん", user_path(current_user.id), class: :greeting__link%>
-      </div> 
-    <% end %>
-    <%# // ログインしているときは上記を表示する %>
+        <div class="gform">
+        <iframe  width="100%" height="auto"  src="https://datastudio.google.com/embed/reporting/2588ddb6-a9f7-459a-885f-0fe6671eaf1f/page/ZjXxB" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div>
 
-    <div class="card__wrapper">
+     <%# h1>イベント報告</h1>
+      <div class="card__wrapper">
        <%= render partial: 'portal', collection: @portals %>
+
+    <%# // ログインしているときは上記を表示する %>
+    <% else %>
+    <%# // ログアウトしている時は以下を表示する %>
+
+    <div class="bg-video-wrap">
+         <video class="video" muted autoplay loop>
+      <source src="http://nowte.net/public/movie.mp4" type="video/mp4">
+    </video>
+      <div class="overlay">
+        </div>
+       <%= image_tag("logo2.png", class: :logo2) %>
+    </div>
+    <% end %>
     </div>
   </div>
 </main>

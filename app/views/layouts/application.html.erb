@@ -20,14 +20,18 @@
             <%# ログインしているときは以下を表示するようにしましょう %>
           <% if user_signed_in? %>
             <div class="nav__right">
+              <%= link_to "実績 Form", reports_new_path, class: :nav__btn %>
+              <%= link_to "実績 Check", portals_path, class: :nav__btn %>
+              <%= link_to "Event Form", new_portal_path, class: :nav__btn %>
+              <%= link_to "Event Check", new_portal_path, class: :nav__btn %>
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__logout %>
-              <%= link_to "新規投稿", new_portal_path, class: :nav__btn %>
+              <%#= link_to "新規投稿", new_portal_path, class: :nav__btn %>
             </div>
             <%# ログインしていないときは以下を表示するようにしましょう %>
             <% else %>
             <div class="nav__right">
-              <%= link_to "ログイン", new_user_session_path, class: :nav__btn %>
               <%= link_to "新規登録", new_user_registration_path, class: :nav__btn %>
+              <%= link_to "ログイン", new_user_session_path, class: :nav__logout %>
             </div>
           <% end %>
         </div>
@@ -35,7 +39,7 @@
     </header>
     <%= yield %>
     <footer class="footer">
-      <p class="copyright">Copyright © PORTAL SITE All rights reserved.</p>
+      <h7 class="copyright">Copyright © PORTAL SITE All rights reserved.</h7>
     </footer>
   </body>
 </html>
