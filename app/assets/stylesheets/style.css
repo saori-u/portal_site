@@ -44,14 +44,9 @@ h2{
 
 .header {
   background-color: #050607;
-  /* margin-bottom: 48px; */
   padding: 20px 0;
 
 }
-/* .inner {
-  width: 1024px;
-  margin: 0 auto;
-} */
 
 .nav {
   width: 100%;
@@ -148,14 +143,6 @@ h2{
   cursor: pointer;
 }
 
-/* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
-
-/* fontawesome */
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
 
 /* メイン */
 
@@ -514,10 +501,6 @@ table td{
 
 /* タブレット対応 */
 @media (max-width: 1024px) {
-  /*.inner {
-    width: 90%;
-    margin: 0 auto;*/
-
   .page-heading {
     font-size: 24px;
   }
