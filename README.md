@@ -70,7 +70,7 @@
   ③ユーザーページにてイベント実施の詳細確認可能
   
    <p align="center">
-  <img src="https://user-images.githubusercontent.com/74886643/105943165-09305e80-60a4-11eb-8c47-e2372b94e17e.jpg" width=70%>
+  <img src="https://user-images.githubusercontent.com/74886643/106229281-9bfe0400-6230-11eb-8445-bbf298cd300e.jpg" width=70%>
   </p>　
   <br>
 
@@ -85,7 +85,7 @@
  ②ユーザー詳細ページにてプロフィールと報告したイベント情報の確認が可能
     
    <p align="center">
-  <img src="https://user-images.githubusercontent.com/74886643/105943165-09305e80-60a4-11eb-8c47-e2372b94e17e.jpg" width=70%>
+  <img src="https://user-images.githubusercontent.com/74886643/106229281-9bfe0400-6230-11eb-8445-bbf298cd300e.jpg" width=70%>
   </p>　
 <br>
 <br>
