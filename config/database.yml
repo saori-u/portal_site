@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: portal_site_production
-  username: portal_site
-  password: <%= ENV['portal_site_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
