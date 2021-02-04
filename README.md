@@ -15,7 +15,7 @@
 
 | URL                           | 
 | ----------------------------- | 
-| 開発中                        |   
+| http://18.180.137.10/         |   
 
 | テスト用アカウント               | 
 | ----------------------------- | 
@@ -67,8 +67,15 @@
   <img src="https://user-images.githubusercontent.com/74886643/105943039-bfe00f00-60a3-11eb-8881-ffe7aa65a47e.jpg" width=70%>
   </p>　
   <br>
-  ③ユーザーページにてイベント実施の詳細確認可能
+  ③トップページ下部とユーザーページにて、イベント実施の詳細確認可能
   
+  →イベントALL
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/74886643/106848135-af5b1480-66f3-11eb-98eb-82f306e2ec74.jpg" width=70%>
+  </p>　
+  <br>
+  
+  →MYイベント
    <p align="center">
   <img src="https://user-images.githubusercontent.com/74886643/106229281-9bfe0400-6230-11eb-8445-bbf298cd300e.jpg" width=70%>
   </p>　
