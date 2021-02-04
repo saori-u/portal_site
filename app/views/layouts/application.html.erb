@@ -20,10 +20,9 @@
             <%# ログインしているときは以下を表示するようにしましょう %>
           <% if user_signed_in? %>
             <div class="nav__right">
-              <%= link_to "実績 Form", reports_new_path, class: :nav__btn %>
-              <%= link_to "実績 Check", portals_path, class: :nav__btn %>
-              <%= link_to "Event Form", new_portal_path, class: :nav__btn %>
-              <%= link_to "Event Check", new_portal_path, class: :nav__btn %>
+              <%= link_to "Top / CHECK!!", portals_path, class: :nav__btn2 %>
+              <%= link_to "実績報告", reports_new_path, class: :nav__btn %>
+              <%= link_to "Event報告", new_portal_path, class: :nav__btn %>
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__logout %>
               <%#= link_to "新規投稿", new_portal_path, class: :nav__btn %>
             </div>

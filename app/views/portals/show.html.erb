@@ -4,7 +4,6 @@
       <p class="portal__hedding">
         <%= @portal.title %>
       </p>
-      
       <%= link_to @portal.user.name, user_path(@portal.user_id), class: :portal__user %>
       <% if user_signed_in? && current_user.id == @portal.user_id %>
       
@@ -18,19 +17,17 @@
       </div>
       <div class="portal__body">
         <div class="portal__detail">
-          <p class="detail__title">キャッチコピー</p>
-          <p class="detail__message">
+          <p class="detail__title2">Event概要</p>
+          <p class="detail__message2">
             <%= @portal.catch_copy %>
           </p>
         </div>
         <div class="portal__detail">
-          <p class="detail__title">コンセプト</p>
-          <p class="detail__message">
+          <p class="detail__title2">Event詳細</p>
+          <p class="detail__message2">
             <%= @portal.concept %>
           </p>
         </div>
-      </div>
-      <div class="portal__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
         <% if user_signed_in? %>
           <%= form_with(model: [@portal,@comment], local: true) do |f|%>

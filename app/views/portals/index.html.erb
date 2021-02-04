@@ -7,11 +7,11 @@
         <%= link_to "#{current_user.name}さん", user_path(current_user.id), class: :greeting__link%>
         <div class="gform">
         <iframe  width="100%" height="auto"  src="https://datastudio.google.com/embed/reporting/2588ddb6-a9f7-459a-885f-0fe6671eaf1f/page/ZjXxB" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <div>
-
-     <%# h1>イベント報告</h1>
+        </div>
+      <p class="title">Event Record ALL</p>
       <div class="card__wrapper">
        <%= render partial: 'portal', collection: @portals %>
+      </div>
 
     <%# // ログインしているときは上記を表示する %>
     <% else %>

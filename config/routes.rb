@@ -7,6 +7,5 @@ Rails.application.routes.draw do
   end
   get "reports/new"
   get "reports/show"
-  get "reports/check"
   resources :users, only: :show
 end
